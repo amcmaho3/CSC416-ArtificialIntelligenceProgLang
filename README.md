@@ -1,1 +1,4 @@
-# CSC416-ArtificialIntelligenceProgLang
+This assignment is a very simple example of evolutionary computing by which a genetic algorithm is created. The genetic algorithm presented in this paper consists of a population of notes in the A major scale as well as a simple melody. The fitness metrics of this algorithm will determine different harmonies for the melody. In addition to this, mutation and crossover concepts will be explored.
+
+This genetic algorithm’s goal is to produce various harmonies that coincide with a simple melody. In order to produce these harmonies, two different fitness metrics will be used to determine the most fit. The first fitness metric will be consonant harmonies, ones that sound
+pleasant to the ears, and that are 2, 4, 6, etc. notes away from each note in the melody. The second fitness metric will be dissonant harmonies, ones that sound as though they clash with the original melody, and sound jarring to the listener. A good portion of the work in this genetic algorithm is modeled after the RBG GA code, however the fitness metrics will be quite different.
